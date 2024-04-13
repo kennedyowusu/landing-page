@@ -1,0 +1,33 @@
+.blog-box {
+ border-radius: 5px;
+ border: .0625rem solid rgba(0, 0, 0, .08);
+ box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+ transition: transform .2s linear, box-shadow .2s linear;
+ top: 0!important;
+}
+
+.blog-box:hover {
+ -webkit-transform: translateY(-4px)!important;
+ transform: translateY(-4px)!important;
+}
+
+.blog-part img {
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.blog-details {
+ background-color: white;
+ padding: 20px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+
+.blog-details h5 a {
+ font-size: 1.25rem;
+ color: #212529;
+}
+
+.font-weight-bold {
+ font-weight: 700;
+}

@@ -1,0 +1,69 @@
+#topnav li.active > a,
+#navigation li.active a,
+.text-custom,
+.filter-list a.active,
+.filter-list a:hover,
+.testimonial .quote .quote-mark,
+.blog .blog-meta a,
+.blog-more {
+    color: #55c979 !important;
+}
+
+#topnav .navbar-toggle.open span:hover,
+.bg-custom,
+.btn-custom,
+.about-title-border {
+  background-color: #55c979 !important;
+}
+
+.btn-custom {
+  transition: all 0.4s;
+  color: #fff !important;
+  border: 2px solid #55c979;
+}
+
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+  box-shadow: 0 20px 50px 0 rgba(26, 38, 74, 0.25);
+  background-color: #55c979 !important;
+  border: 2px solid #55c979 !important;
+}
+
+.service-desc a {
+  color: #55c979;
+}
+
+.filter-list a.active,
+.filter-list a:hover,
+.testimonial .quote .quote-mark {
+  color: #55c979 !important;
+}
+
+.play-icon-circle {
+  background-color: transparent;
+  border: 3px solid #55c979 !important;
+}
+
+.home_small_title_border {
+  height: 2px;
+  width: 70px;
+  background-color: #55c979 !important;
+}
+
+@media (min-width: 992px) {
+  #topnav .navigation-menu > li:hover > a{
+    color: #55c979 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #topnav .navigation-menu > li > a:hover,
+  #topnav .navigation-menu > li a:hover,
+  #topnav .menu-extras .menu-item .search > a:hover {
+    color: #55c979 !important;
+  }
+}
